@@ -1,6 +1,7 @@
 # BERT_USE
 主要用了bert-tensorflow和tensorflow_hub
 
+首先要新建两个文件夹“bert_pretrain_model”和“save_model”
 - bert_pretrain_model: BERT模型下载到这里，并进行解压。具体模型下载连接：
 [https://github.com/google-research/bert](https://github.com/google-research/bert)
 - save_model: python3 model.py 之后模型会保存到这里
