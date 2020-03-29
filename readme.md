@@ -16,3 +16,8 @@ BERT模型下载后是一个压缩包，类似于uncased_L-12_H-768_A-12.zip。�
 ```python
 python3 model.py
 ```
+
+## output embedding
+利用get_embedding.py文件，可以生成token-level embedding和sentence embedding。
+- use_sentence: False, output token-level embedding
+- use_sentence: True, output sentence embedding
