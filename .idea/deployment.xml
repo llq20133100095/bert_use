@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="llq@192.168.0.105:22">
+    <serverData>
+      <paths name="llq@127.12.92.22:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/llq/linux_software/python/bert_use" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
