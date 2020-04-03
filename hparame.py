@@ -33,3 +33,4 @@ class Hparame:
 
     """ save model """
     parser.add_argument("--OUTPUT_DIR", default="./save_model/")
+    parser.add_argument("--model_output", default="bert_model")

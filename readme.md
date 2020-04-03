@@ -12,12 +12,22 @@ BERT模型下载后是一个压缩包，类似于uncased_L-12_H-768_A-12.zip。�
 - bert_model.ckpt.xxxx：这里有两种文件，但导入模型只需要bert_model.ckpt这个前缀就可以了
 - vocab.txt：存放词典
 
-## train and eval
+## train and eval in tf.estimator
 ```python
-python3 model.py
+python3 model_estimator.py
+```
+
+## 
+```python
+python3 train.py
 ```
 
 ## output embedding
 利用get_embedding.py文件，可以生成token-level embedding和sentence embedding。
 - use_sentence: False, output token-level embedding
 - use_sentence: True, output sentence embedding
+
+## 自定义打印信息和利用sess跑, train and eval in tf.sess:
+```python
+python3 train.py
+```

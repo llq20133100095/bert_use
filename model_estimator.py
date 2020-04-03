@@ -164,3 +164,12 @@ if __name__ == "__main__":
     test_input_fn = run_classifier.input_fn_builder(features=test_features, seq_length=hp.MAX_SEQ_LENGTH, is_training=False,
         drop_remainder=False)
     print(estimator.evaluate(input_fn=test_input_fn, steps=None))
+
+    """ train and eval """
+    # for _ in range(0, num_train_steps, hp.SAVE_SUMMARY_STEPS):
+    #     current_time = datetime.now()
+    #     train_spec = tf.estimator.TrainSpec(input_fn=train_input_fn, max_steps=hp.SAVE_SUMMARY_STEPS)
+    #     eval_spec = tf.estimator.EvalSpec(input_fn=test_input_fn)
+    #     print(tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec))
+    #     print("Training took time ", datetime.now() - current_time)
+
