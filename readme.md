@@ -32,7 +32,7 @@ python3 model_estimator.py
 python3 train.py
 ```
 
-##　result
+## result
 eval_accuracy:
 ![eval_accuracy](./figure/eval_accuracy.png)
 
